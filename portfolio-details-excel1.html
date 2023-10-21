@@ -47,7 +47,7 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <h1 class="text-light"><a href="index.html">Johnny J. Vang</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -91,22 +91,22 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-4">
 
-          <div class="col-lg-8">
+
+          <div class="col-lg-12">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/portfolio/coffee_dashboard.PNG" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/portfolio/coffee_dashboard2.PNG" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio/coffee_dashboard3.PNG" alt="">
                 </div>
 
               </div>
@@ -114,25 +114,33 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
+          This Excel project focuses on analyzing historical coffee sales <b>data from 2017 to 2019</b>. The dataset includes information from <b>1000 customer transactions</b>, covering details such as the coffee roast type, coffee bean type, coffee cup size, loyalty card usage, and more.
+          <br/><br/>
+          <b>Analysis and Visualization:</b>
+          <br/>
+          The project primarily explores the total <b>sales of coffee over time</b>.
+          Various slicers are used to dynamically display differences in coffee types, roast types, and coffee cup sizes.
+          Additionally, two visualizations are created to display sales by country and the top 5 customers, with the <b>ability to change dynamically based on slicer selections</b>.
+          The data is organized into three tables: Orders, Customers, and Products, with primary or secondary keys linking these tables, following a relational database structure similar to SQL databases.
+          <br/><br/>
+          <b>Data Cleaning and Processing:</b>
+          <br/>
+          Data processing involves combining or joining certain data to create the visualizations.
+          Functions like <b>XLOOKUP and INDEX</b> are used to populate values. For instance, correlating customer IDs with XLOOKUP to include customer names in the orders tab.
+          Data is cleaned to enhance readability, including converting abbreviated names to full names (e.g., "Rob" to "Robusta," "Ara" to "Arabica").
+          Roast types are converted into real names (e.g., "M" to "Medium," "L" to "Light," "D" to "Dark").
+          Date formats are standardized from European (Date-Month-Year) to American (Month-Date-Year).
+          Missing data, such as emails, phone numbers, and postcodes, is not addressed, as they are not used in the analysis.
+          <br/><br/>
+          <b>Key Takeaways:</b>
+          <br/>
+          The project demonstrates the use of INDEX, the dynamic version of XLOOKUP.
+          Several helpful Excel shortcuts are employed to expedite tasks, such as navigating to specific cells and locking variables.
+          This project serves as an example of data analysis and visualization in Excel, highlighting the importance of data cleaning and processing to present information effectively.
+          <div>
 
-        </div>
+
+          </div>
 
       </div>
     </section><!-- End Portfolio Details Section -->
